@@ -5,12 +5,6 @@ const navigation = document.querySelector('.site-nav');
 const showMoreButton = document.querySelector('.show-more');
 const extraPapers = document.querySelectorAll('.extra-paper');
 
-window.addEventListener('load', () => {
-  if (!window.location.hash) return;
-  const target = document.getElementById(window.location.hash.slice(1));
-  target?.scrollIntoView({ behavior: 'instant', block: 'start' });
-});
-
 const savedTheme = localStorage.getItem('theme');
 if (savedTheme === 'dark' || savedTheme === 'light') {
   root.dataset.theme = savedTheme;
@@ -44,4 +38,5 @@ showMoreButton?.addEventListener('click', () => {
     : 'Show fewer publications <span aria-hidden="true">↑</span>';
 });
 
-document.querySelector('#year').textContent = new Date().getFullYear();
+const year = document.querySelector('#year');
+if (year) year.textContent = new Date().getFullYear();
