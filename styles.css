@@ -195,6 +195,7 @@ svg { display: block; }
 }
 .nano-graphic { width: 100%; height: 91%; color: var(--sage); }
 .hero-visual .nano-graphic { display: none; }
+.profile-photo:not(.profile-photo-asset) { display: none; }
 .profile-photo {
   position: absolute;
   inset: 0;
