@@ -4,7 +4,7 @@ A responsive, dependency-free academic website built for GitHub Pages.
 
 ## Publish at `https://eeerperfect.github.io/jwang576`
 
-1. Open the existing `EEerperfect/jwang576.github.io` repository.
+1. Open the existing `EEerperfect/jwang576` repository.
 2. Upload every file and folder from this directory to the repository root, including `.github`, `.nojekyll`, and `assets`.
 3. In the repository, open **Settings → Pages**.
 4. Under **Build and deployment → Source**, select **GitHub Actions**.

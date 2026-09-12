@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://eeerperfect.github.io/jwang576.github.io/sitemap.xml
+Sitemap: https://eeerperfect.github.io/jwang576/sitemap.xml
