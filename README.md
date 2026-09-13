@@ -2,7 +2,7 @@
 
 A responsive, dependency-free academic website built for GitHub Pages.
 
-## Publish at `https://eeerperfect.github.io/jwang576`
+## Publish at `https://eeerperfect.github.io/jwang576/`
 
 1. Open the existing `EEerperfect/jwang576` repository.
 2. Upload every file and folder from this directory to the repository root, including `.github`, `.nojekyll`, and `assets`.
@@ -24,10 +24,9 @@ Then open `http://localhost:8000`.
 
 ## Update content
 
-- Home and biography: `index.html`
+- Home, biography, education, and training: `index.html`
 - Research: `research.html`
 - Publications: `publications.html`
-- Academic experience and education: `journey.html`
 - Honors and awards: `honors.html`
 - Contact information: `contact.html`
 - Colors, spacing, typography, and responsive layout: `styles.css`
