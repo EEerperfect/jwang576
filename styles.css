@@ -296,14 +296,15 @@ svg { display: block; }
 }
 .section-heading h2 { margin: .8rem 0 0; }
 .section-heading > p { margin: 0; color: var(--ink-soft); font-size: 1.08rem; }
+.research-areas-section { width: min(calc(100% - 48px), 1440px); }
 .research-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-.research-card { position: relative; padding: 2rem clamp(1.2rem, 2.7vw, 2.5rem) 2.6rem; }
+.research-card { position: relative; min-height: 720px; padding: 2rem clamp(1.2rem, 2.2vw, 2rem) 3rem; }
 .research-card + .research-card { border-left: 1px solid var(--line); }
 .card-number { margin: 0; color: var(--ink-soft); font-size: .72rem; }
 .research-icon { width: 80px; height: 80px; margin: 2.5rem 0 3.5rem; color: var(--accent); }
 .research-icon img { width: 100%; height: 100%; }
-.research-figure { width: 100%; aspect-ratio: 16 / 10; margin: 2rem 0 2.4rem; overflow: hidden; border: 1px solid var(--line); background: var(--paper); }
-.research-figure img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.research-figure { display: flex; align-items: center; justify-content: center; width: 100%; aspect-ratio: 3 / 2; margin: 2.2rem 0 2.8rem; background: var(--paper); }
+.research-figure img { display: block; width: 100%; height: 100%; object-fit: contain; }
 .research-card h3 { margin: 0; font-family: var(--serif); font-size: 1.75rem; font-weight: 400; }
 .research-card > p:not(.card-number) { min-height: 110px; color: var(--ink-soft); }
 .research-card ul { display: flex; flex-wrap: wrap; gap: .45rem; list-style: none; padding: 0; margin: 1.4rem 0 0; }
@@ -438,6 +439,7 @@ svg { display: block; }
   .section-heading { grid-template-columns: 1fr; gap: 1rem; align-items: start; }
   .text-link { justify-self: start; }
   .research-grid { grid-template-columns: 1fr; }
+  .research-card { min-height: 0; }
   .research-card + .research-card { border-left: 0; border-top: 1px solid var(--line); }
   .research-card > p:not(.card-number) { min-height: auto; }
   .research-icon { margin-block: 1.8rem; }
